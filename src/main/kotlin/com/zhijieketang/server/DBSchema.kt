@@ -10,7 +10,7 @@ import org.jetbrains.exposed.sql.Table
 const val URL = "jdbc:mysql://localhost:3306/qq?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8"
 const val DRIVER_CLASS = "com.mysql.cj.jdbc.Driver"
 const val DB_USER = "root"
-const val DB_PASSWORD = "wasd2488130937"
+const val DB_PASSWORD = ""
 
 object Users: Table() {
     val user_id = varchar("user_id", length = 80)
